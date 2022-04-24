@@ -38,7 +38,7 @@ body, html {
     bottom: 0;
 }
 
-img {
+.back {
     position: absolute;
     width: 60%;
     margin: auto;
@@ -74,16 +74,16 @@ img {
 .text-box {
     display: flex;
     width: 75%;
-    border: 1px solid gray;
+    border: 1px solid #D5D8DC;
     margin: auto;
     border-radius: 3px;
 }
 
 .country {
-    background: #dfdfdf;
+    background: #ECF0F1;
     width: 40px;
     padding: 7px;
-    border: 1px solid gray;
+    border: 1px solid #D5D8DC;
     border-bottom: none;
     border-top: none;
     border-left: none;
@@ -99,4 +99,39 @@ input {
     font-size: 13px;
     outline: none;
     border: none;
+}
+
+.request_otp {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+.otp {
+    border: 1px solid #f58847;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: none;
+    color: #f58847;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.otp:hover {
+    background: #f58847;
+    color: white;
+}
+hr {
+    width: 80%;
+    border-top: 1px dashed #ECF0F1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+img {
+    width: 22px;
 }
