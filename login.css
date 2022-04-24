@@ -135,3 +135,26 @@ hr {
 img {
     width: 22px;
 }
+.git {
+    width: 75%;
+    background: #444444;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width: 600px) {
+    #row {
+        flex-direction: row;
+    }
+    #column {
+        display: none;
+    }
+    #column1 {
+        width: 100%;
+    }
+}
